@@ -1,0 +1,365 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.activity.Seat_Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbarseat"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#1D41FF"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Đặt ghế"
+                android:textColor="@android:color/white"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </androidx.appcompat.widget.Toolbar>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="180dp">
+
+            <ImageView
+                android:id="@+id/imagedghe"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:src="@drawable/tbl1" />
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                tools:ignore="MissingConstraints">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#A4FFFFFF"
+                    android:backgroundTint="#FFFFFF"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tenphimseat"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Vầng trăng máu"
+                        android:textColor="#000"
+                        android:textSize="28sp"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="2D phụ đề" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="|" />
+
+                        <TextView
+                            android:id="@+id/suatchieuphimseat"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="18:30" />
+
+                        <TextView
+                            android:id="@+id/ngaychieuphimseat"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="5dp"
+                            android:text="02/11/2023" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="|" />
+
+                        <TextView
+                            android:id="@+id/thoiluongseat"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="132 phút" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:padding="10dp">
+
+            <ImageView
+                android:id="@+id/ghetrong"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/ghevip" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_toEndOf="@+id/ghetrong"
+                android:text="Ghế trống"
+                android:textSize="10sp" />
+
+            <ImageView
+                android:id="@+id/ghedangchon"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_below="@id/ghetrong"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/ghevipdangchon" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/ghetrong"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="12dp"
+                android:layout_toEndOf="@+id/ghetrong"
+                android:text="Ghế đang chọn"
+                android:textSize="10sp" />
+
+            <ImageView
+                android:id="@+id/ghedadcchon"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_below="@id/ghedangchon"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/ghevipdaduocchon" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/ghedangchon"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="12dp"
+                android:layout_toEndOf="@+id/ghetrong"
+                android:text="Ghế đã được chọn"
+                android:textSize="10sp" />
+
+            <ImageView
+                android:id="@+id/ghedaban"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_below="@id/ghedadcchon"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/ghevipdaban" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/ghedadcchon"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="12dp"
+                android:layout_toEndOf="@+id/ghetrong"
+                android:text="Ghế đã được chọn"
+                android:textSize="10sp" />
+
+            <ImageView
+                android:id="@+id/ghevip"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginStart="120dp"
+                android:layout_marginTop="5dp"
+                android:layout_toEndOf="@id/ghetrong"
+                android:src="@drawable/ghevip" />
+
+            <TextView
+                android:id="@+id/txtghevip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_toEndOf="@+id/ghevip"
+                android:text="Ghế vip"
+                android:textSize="10sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtghevip"
+                android:layout_marginStart="10dp"
+                android:layout_toEndOf="@+id/ghevip"
+                android:text="90.000 VNĐ"
+                android:textSize="10sp" />
+
+            <ImageView
+                android:id="@+id/ghethuong"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_below="@id/ghevip"
+                android:layout_marginStart="120dp"
+                android:layout_marginTop="12dp"
+                android:layout_toEndOf="@id/ghetrong"
+                android:src="@drawable/ghethuong" />
+
+            <TextView
+                android:id="@+id/txtghethuong"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/ghevip"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="8dp"
+                android:layout_toEndOf="@+id/ghethuong"
+                android:text="Ghế thường"
+                android:textSize="10sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtghethuong"
+                android:layout_marginStart="10dp"
+                android:layout_toEndOf="@+id/ghethuong"
+                android:text="70.000 VNĐ"
+                android:textSize="10sp" />
+
+            <ImageView
+                android:id="@+id/ghedoi"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_below="@id/ghethuong"
+                android:layout_marginStart="120dp"
+                android:layout_marginTop="12dp"
+                android:layout_toEndOf="@id/ghetrong"
+                android:src="@drawable/ghedoi" />
+
+            <TextView
+                android:id="@+id/txtghedoi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/ghethuong"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="8dp"
+                android:layout_toEndOf="@+id/ghethuong"
+                android:text="Ghế đôi"
+                android:textSize="10sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtghedoi"
+                android:layout_marginStart="10dp"
+                android:layout_toEndOf="@+id/ghethuong"
+                android:text="150.000 VNĐ"
+                android:textSize="10sp" />
+        </RelativeLayout>
+
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginTop="10dp"
+            android:scrollbars="vertical"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="0dp">
+
+            <HorizontalScrollView
+                android:id="@+id/layoutSeat"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:scrollbars="none" />
+        </ScrollView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="#FDF9F9"
+            android:elevation="10dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:weightSum="10">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2.5"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Ghế đã chọn" />
+
+                <TextView
+                    android:id="@+id/soghe"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="C11" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="|"
+                android:textSize="40sp" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2.5"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tổng tiền" />
+
+                <TextView
+                    android:id="@+id/tongtienseat"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="70.000đ"
+                    android:textColor="#0000ff" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="|"
+                android:textSize="40sp" />
+
+            <Button
+                android:id="@+id/btntieptucseat"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="0dp"
+                android:layout_marginEnd="-28dp"
+                android:layout_weight="2.5"
+                android:backgroundTint="#00ff00"
+                android:paddingStart="0dp"
+                android:text="Tiếp tục" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

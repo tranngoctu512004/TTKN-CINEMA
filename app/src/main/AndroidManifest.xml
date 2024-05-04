@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/logocroped"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logocroped"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.TTKNCinema"
+        tools:targetApi="31">
+        <activity
+            android:name=".activity.activity.taikhoan.ThongBaoChiTietActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.activity.taikhoan.KhuyenMaiChiTietActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.activity.taikhoan.ChitietgiaodichActivity"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.activity.taikhoan.ThongTindoanhnghiepActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.activity.taikhoan.ChinhsachbaomatActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.activity.taikhoan.DieukhoansudungActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.activity.taikhoan.DoimatkhauActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.activity.taikhoan.ThongtincanhanActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.activity.taikhoan.VedamuaActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".activity.activity.Thanhtoan_Activity"
+            android:exported="true"
+            android:launchMode="singleTask">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="demozpdk"
+                    android:host="app" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.activity.Seat_Activity"
+            android:exported="true"
+            android:launchMode="singleTask"/>
+        <activity
+            android:name=".activity.activity.ResetPasswordActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.activity.ImportOTPActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.activity.DateActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.activity.Welcome_Activity"
+            android:exported="true" >
+
+        </activity>
+        <activity
+            android:name=".activity.activity.Forgotpass_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.activity.MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.activity.Register_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.activity.Information_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.activity.Login_Activity"
+            android:exported="true">
+
+
+        </activity>
+    </application>
+
+</manifest>

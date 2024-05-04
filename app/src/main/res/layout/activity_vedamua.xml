@@ -1,0 +1,471 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".activity.activity.taikhoan.VedamuaActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbarvedm"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#1D41FF"
+            android:gravity="center">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Vé đã mua"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="@android:color/white"
+                android:textSize="20sp"/>
+        </androidx.appcompat.widget.Toolbar>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/venhungnguoiban"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:elevation="10dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#F6F6F6">
+
+                    <ImageView
+                        android:id="@+id/anh"
+                        android:layout_width="120dp"
+                        android:layout_height="180dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/nhungnguoiban" />
+
+                    <TextView
+                        android:id="@+id/tenphim"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="20dp"
+                        android:layout_toEndOf="@id/anh"
+                        android:text="Những người bạn"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/theloai"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/tenphim"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_toEndOf="@id/anh"
+                        android:text="Thể loại: "
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/theloaiphim"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/tenphim"
+                        android:layout_marginTop="10dp"
+                        android:layout_toEndOf="@id/theloai"
+                        android:text=" Tình cảm, lãng mạng"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:id="@+id/thoiluong"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/theloai"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_toEndOf="@id/anh"
+                        android:text="Thời lượng: "
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/thoiluongphim"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/theloai"
+                        android:layout_marginTop="10dp"
+                        android:layout_toEndOf="@id/thoiluong"
+                        android:text=" 168p"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:id="@+id/maso"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/thoiluong"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_toEndOf="@id/anh"
+                        android:text="MS: "
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/masophim"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/thoiluong"
+                        android:layout_marginTop="10dp"
+                        android:layout_toEndOf="@id/maso"
+                        android:text=" 516516546465"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:id="@+id/ngaychieu"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/maso"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_toEndOf="@id/anh"
+                        android:text="Ngày chiếu"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/ngaychieuphim"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/maso"
+                        android:layout_marginTop="10dp"
+                        android:layout_toEndOf="@id/ngaychieu"
+                        android:text=" 23/11/2023"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:id="@+id/ghephong"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/ngaychieu"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_toEndOf="@id/anh"
+                        android:text="Ghế phòng"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/ghephongphim"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/ngaychieu"
+                        android:layout_marginTop="10dp"
+                        android:layout_toEndOf="@id/ghephong"
+                        android:text=" VIP J6 - P8"
+                        android:textSize="15sp" />
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp">
+
+            <androidx.cardview.widget.CardView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:elevation="10dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#F6F6F6">
+
+                    <ImageView
+                        android:id="@+id/anh1"
+                        android:layout_width="120dp"
+                        android:layout_height="180dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/nhabanu" />
+
+                    <TextView
+                        android:id="@+id/tenphim1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="20dp"
+                        android:layout_toEndOf="@id/anh1"
+                        android:text="Nhà bà nữ"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/theloai1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/tenphim1"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_toEndOf="@id/anh1"
+                        android:text="Thể loại: "
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/theloaiphim1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/tenphim1"
+                        android:layout_marginTop="10dp"
+                        android:layout_toEndOf="@id/theloai1"
+                        android:text=" Tình cảm, lãng mạng"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:id="@+id/thoiluong1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/theloai1"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_toEndOf="@id/anh1"
+                        android:text="Thời lượng: "
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/thoiluongphim1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/theloai1"
+                        android:layout_marginTop="10dp"
+                        android:layout_toEndOf="@id/thoiluong1"
+                        android:text=" 168p"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:id="@+id/maso1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/thoiluong1"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_toEndOf="@id/anh1"
+                        android:text="MS: "
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/masophim1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/thoiluong1"
+                        android:layout_marginTop="10dp"
+                        android:layout_toEndOf="@id/maso1"
+                        android:text=" 516516546465"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:id="@+id/ngaychieu1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/maso1"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_toEndOf="@id/anh1"
+                        android:text="Ngày chiếu"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/ngaychieuphim1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/maso1"
+                        android:layout_marginTop="10dp"
+                        android:layout_toEndOf="@id/ngaychieu1"
+                        android:text=" 23/11/2023"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:id="@+id/ghephong1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/ngaychieu1"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_toEndOf="@id/anh1"
+                        android:text="Ghế phòng"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/ghephongphim1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/ngaychieu1"
+                        android:layout_marginTop="10dp"
+                        android:layout_toEndOf="@id/ghephong1"
+                        android:text=" VIP J6 - P8"
+                        android:textSize="15sp" />
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp">
+
+            <androidx.cardview.widget.CardView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:elevation="10dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#F6F6F6">
+
+                    <ImageView
+                        android:id="@+id/anh2"
+                        android:layout_width="120dp"
+                        android:layout_height="180dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/ngaydo" />
+
+                    <TextView
+                        android:id="@+id/tenphim2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="20dp"
+                        android:layout_toEndOf="@id/anh2"
+                        android:text="Ngày đó"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/theloai2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/tenphim2"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_toEndOf="@id/anh2"
+                        android:text="Thể loại: "
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/theloaiphim2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/tenphim2"
+                        android:layout_marginTop="10dp"
+                        android:layout_toEndOf="@id/theloai2"
+                        android:text=" Tình cảm, lãng mạng"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:id="@+id/thoiluong2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/theloai2"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_toEndOf="@id/anh2"
+                        android:text="Thời lượng: "
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/thoiluongphim2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/theloai2"
+                        android:layout_marginTop="10dp"
+                        android:layout_toEndOf="@id/thoiluong2"
+                        android:text=" 168p"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:id="@+id/maso2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/thoiluong2"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_toEndOf="@id/anh2"
+                        android:text="MS: "
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/masophim2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/thoiluong2"
+                        android:layout_marginTop="10dp"
+                        android:layout_toEndOf="@id/maso2"
+                        android:text=" 516516546465"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:id="@+id/ngaychieu2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/maso2"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_toEndOf="@id/anh2"
+                        android:text="Ngày chiếu"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/ngaychieuphim2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/maso2"
+                        android:layout_marginTop="10dp"
+                        android:layout_toEndOf="@id/ngaychieu2"
+                        android:text=" 23/11/2023"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:id="@+id/ghephong2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/ngaychieu2"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_toEndOf="@id/anh2"
+                        android:text="Ghế phòng"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/ghephongphim2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/ngaychieu2"
+                        android:layout_marginTop="10dp"
+                        android:layout_toEndOf="@id/ghephong2"
+                        android:text=" VIP J6 - P8"
+                        android:textSize="15sp" />
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

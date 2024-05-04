@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.activity.DateActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbardate"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#1D41FF"
+        android:gravity="center">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Chọn xuất chiếu"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"/>
+    </androidx.appcompat.widget.Toolbar>
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tabLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        app:tabIndicatorColor="@color/red"
+        app:tabGravity="fill"
+        app:tabMode="scrollable"
+        app:tabMinWidth="0dp"
+        app:tabMaxWidth="200dp"
+        app:tabTextAppearance="@style/CustomTabText"
+        app:tabTextColor="#FF1100" />
+
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background_viewpager"
+        app:tabIndicatorColor="@color/red"
+        app:tabTextColor="#FF1100" />
+</LinearLayout>

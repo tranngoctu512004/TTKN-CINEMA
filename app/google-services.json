@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "681108569419",
+    "firebase_url": "https://ttkn-by-tu-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "ttkn-by-tu",
+    "storage_bucket": "ttkn-by-tu.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:681108569419:android:78b97948c784862426fcce",
+        "android_client_info": {
+          "package_name": "com.example.ttkncinema"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA4-EKU9iu2drZPMB5KqgFuCVr8PxiFPKQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

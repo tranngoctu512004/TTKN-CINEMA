@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/ic_home"
+        android:title="Home" />
+    <item
+        android:id="@+id/lichphim"
+        android:icon="@drawable/ic_calendar"
+        android:title="Lich Phim" />
+    <item
+        android:id="@+id/tintuc"
+        android:icon="@drawable/ic_newspaper"
+        android:title="Tin Tức" />
+    <item
+        android:id="@+id/thongbao"
+        android:icon="@drawable/ic_notifications"
+        android:title="Thông báo"/>
+    <item
+        android:id="@+id/taikhoan"
+        android:icon="@drawable/ic_person"
+        android:title="Tài khoản"/>
+</menu>

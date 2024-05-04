@@ -1,0 +1,94 @@
+<resources>
+    <string name="app_name">TTKN Cinema</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="lbl_zptranstoken">zptranstoken</string>
+    <string name="text">Ngày 07/11 - 30/11/2023, để tri ân đến các khách hàng là thành viên của Beta Cinemas, khách hàng sẽ nhận được ưu đãi chỉ với 9,000 điểm BETA ID đổi ngay 1 Bắp 32oz trị giá 58,000 VNĐ.\n\n
+
+
+
+\t\tĐiều khoản và điều kiện áp dụng:\n\n
+
+\t\tÁp dụng cho khách hàng là Thành viên của Beta Cinemas và sử dụng điểm Beta ID để đổi bắp.\n\n
+
+\t\tÁp dụng cho mọi hạng tài khoản.\n\n
+
+\t\tÁp dụng với khách hàng mua vé trực tiếp tại quầy.\n\n
+
+\t\tÁp dụng cho các giao dịch trong thời gian khuyến mại, kể cả các giao dịch mua vé suất chiếu những ngày sau.\n\n
+
+\t\tKhông giới hạn số lần tiêu điểm.\n\n
+
+\t\tKhông áp dụng đồng thời cùng các chương trình khuyến mãi khác của quầy Concession (như Mad Sale Day,...).\n\n
+
+\t\tKhông áp dụng cho suất chiếu sớm, suất chiếu đặc biệt.\n\n
+
+\t\tKhông áp dụng cho các Group Sale hoặc Private Show có áp dụng chính sách ưu đãi giá vé.\n\n
+
+\t\tKhông áp dụng đổi điểm qua các kênh mua online trên App/ Web hoặc các kênh mua hàng khác như Momo, VNPay, Shopee Pay, Moveek, 123 Phim,...</string>
+    <string name="texttbl">
+        Beta Cinemas xin thông báo tới Quý khách hàng về Chính sách điểm thành viên áp dụng từ ngày 06/11/2023 như sau:\n\n
+1. Hình thức đăng ký tài khoản thành viên:\n\n
+- Mã thành viên:\n\n
+Mã 9001xxx…: Mã thành viên đăng ký thẻ cứng từ 2018\n\n
+Mã 9002xxx...: Mã thành viên đăng ký thành viên online\n\n
+Mã 9100xxx…: Mã thành viên đăng ký mới từ kênh VANI\n\n
+- Điều kiện phân hạng:\n\n
+Khách hàng STANDARD => Các khách hàng lần đầu tiên đăng ký mở Tài khoản thành viên tại các điểm kinh doanh hoặc các kênh bán hàng của Beta Cinemas (app, web, pos) hoặc ứng dụng VANI\n\n
+Khách hàng VIP => Khách hàng STANDARD mua hàng hóa, dịch vụ của Beta Cinemas với tổng giá trị từ 3,000,000 VND (hệ thống tự động nâng hạng VIP vào 00h00 hằng ngày và cho phép áp dụng tỷ lệ tích lũy mới)\n\n
+Lưu ý: Thẻ VIP nếu không hoạt động trong vòng 06 tháng sẽ bị xuống hạng STANDARD, xóa toàn bộ điểm tích lũy và tổng chi tiêu.\n\n
+- Cách đăng ký/Các kênh đăng ký tài khoản thành viên:\n\n
+Đọc thông tin email và SĐT cho nhân viên đăng ký trực tiếp tại quầy\n\n
+Mobile app và Website của Beta Cinemas: đăng ký mới bằng email, hoặc Facebook, Apple ID\n\n
+Ứng dụng VANI\n\n
+(Việc đăng ký tài khoản là hoàn toàn MIỄN PHÍ)\n/n
+2. Quyền lợi tài khoản thành viên:\n\n
+- Điểm tích lũy:\n\n
+Tích lũy giá trị mua hàng theo tỷ lệ bên dưới, 1 điểm = 1 VNĐ.\n\n
+Trở thành khách hàng STANDARD và được tích lũy ngay từ lần tiêu dùng đầu tiên.\n\n
+- Tiêu điểm linh hoạt:\n\n
+Khách hàng hoàn toàn được tùy chọn số điểm muốn tiêu trong quỹ điểm đã tích lũy được;\n\n
+Quy đổi điểm:\n\n
+Tổng số điểm quy ra giá trị dịch vụ/hàng hóa muốn đổi\n\n
+Tổng số điểm trừ trực tiếp vào hóa đơn thanh toán.\n\n
+- Điều kiện tích lũy: Điểm được tích lũy ngay sau khi giao dịch thanh toán thành công và khách có đăng nhập Tài khoản thành viên trước đó.\n\n
+- Thời hạn tích lũy và sử dụng điểm: Điểm tích lũy có thời hạn 60 NGÀY kể từ khi tích lũy\n\n
+Khi tiêu dùng điểm, hệ thống sẽ tự động chọn các điểm tích lũy sắp hết hạn trước.\n\n
+Phần thông tin tài khoản ở App, Web cho phép hiển thị số điểm sẽ hết hạn.\n\n
+3. Tỷ lệ tích lũy\n\n
+- KHÁCH HÀNG STANDARD:\n\n
+Vé phim: 3%\n\n
+Các sản phẩm còn lại (ngoại trừ hàng Merchandise, sản phẩm của CTKM): 10%\n\n
+- KHÁCH HÀNG VIP:\n\n
+Vé phim: 3%\n\n
+Các sản phẩm còn lại (ngoại trừ hàng Merchandise, sản phẩm của CTKM): 15%\n\n
+Lưu ý: Từng CTKM sẽ được Beta Cinemas thông báo thể lệ tích điểm cụ thể.\n\n
+4. Điều khoản và điều kiện sử dụng:\n\n
+Điểm tích lũy trước ngày 01/01/2023 sẽ hết hạn vào ngày 30/11/2023.\n\n
+Điểm tích lũy từ ngày 01/01/2023 - 05/11/2023 sẽ hết hạn vào ngày 06/01/2024 => App sẽ có thông báo tự động về ngày hết hạn này.\n\n
+Khách hàng xuất trình Tài khoản thành viên trước khi giao dịch để được hưởng ưu đãi;\n\n
+Điểm tích lũy và ưu đãi giảm giá sẽ không được áp dụng nếu giao dịch đã hoàn thành mà khách hàng chưa xuất trình Tài khoản thành viên;\n\n
+Beta Cinemas có quyền thay đổi bất kỳ điều khoản nào và sẽ có thông báo chi tiết trên website, tại điểm kinh doanh cho khách hàng trước ngày chính thức áp dụng thay đổi;\n\n
+Không áp dụng tích điểm thành viên cho Group Sale và khách hàng đã áp dụng các hình thức khuyến mãi đặc biệt trước đó;\n\n
+Điểm tích lũy không được quy đổi ra tiền mặt trực tiếp trong mọi trường hợp, điểm tích lũy chỉ có giá trị quy đổi vào giao dịch sử dụng tại các rạp Beta Cinemas.\n\n
+💙💙💙 BETA CINEMAS XIN CHÂN THÀNH CẢM ƠN SỰ ỦNG HỘ CỦA QUÝ KHÁCH HÀNG TRONG THỜI GIAN QUA VÀ RẤT MONG ĐƯỢC ĐÓN TIẾP QUÝ KHÁCH HÀNG TRONG NHỮNG LẦN XEM PHIM TỚI! 💙💙💙
+    </string>
+
+    <string name="thong_tin">1. Quyền Sở Hữu: Tất cả nội dung, thông tin, hình ảnh và tài liệu khác trên ứng dụng này thuộc quyền sở hữu của chúng tôi hoặc các đối tác của chúng tôi. Bạn cam kết không sao chép, phát tán, tái bản, hoặc sử dụng bất kỳ nội dung nào từ ứng dụng mà không có sự đồng ý bằng văn bản từ chúng tôi.
+2. Quy Định Đặt Vé: Quy trình đặt vé thông qua ứng dụng của chúng tôi được thực hiện dựa trên thông tin chính xác và cung cấp từ bạn. Bạn chịu trách nhiệm đảm bảo rằng thông tin cung cấp là đúng và chính xác. Chúng tôi không chịu trách nhiệm đối với bất kỳ sai sót nào do thông tin không chính xác hoặc thiếu sót từ phía bạn.
+3. Quy Định Hủy Vé: Chúng tôi có thể áp dụng chính sách hủy vé cụ thể mà bạn cần phải tuân thủ khi thực hiện việc hủy vé. Vui lòng đọc kỹ chính sách hủy vé trước khi thực hiện bất kỳ giao dịch hủy vé nào. Chúng tôi có quyền điều chỉnh hoặc thay đổi chính sách này mà không cần thông báo trước.
+4. Bảo Mật Thông Tin: Chúng tôi cam kết bảo vệ thông tin cá nhân của bạn theo Chính sách Bảo mật của chúng tôi. Tuy nhiên, bạn cũng cần tự bảo vệ thông tin cá nhân của mình và không chia sẻ thông tin đăng nhập với bất kỳ ai khác.
+5. Quyền Sửa Đổi Điều Khoản: Chúng tôi có quyền sửa đổi, thay đổi hoặc cập nhật các điều khoản và điều kiện này theo quyết định của chúng tôi mà không cần bất kỳ thông báo trước. .
+6. Liên Hệ: Nếu bạn có bất kỳ câu hỏi hoặc thắc mắc nào liên quan đến việc sử dụng ứng dụng, vui lòng liên hệ với chúng tôi theo thông tin liên hệ được cung cấp trên ứng dụng.
+Trân trọng, Nhóm phát triển ứng dụng Đặt Vé Xem Phim.</string>
+    <string name="thong_tin2">Chúng tôi, nhóm phát triển ứng dụng Đặt Vé Xem Phim, cam kết bảo vệ thông tin cá nhân của bạn. Chính sách bảo mật này mô tả cách chúng tôi thu thập, sử dụng và bảo vệ thông tin cá nhân của bạn khi bạn sử dụng ứng dụng của chúng tôi.
+1. Thông Tin Thu Thập: Chúng tôi có thể thu thập thông tin cá nhân như tên, địa chỉ email, số điện thoại và thông tin thanh toán khi bạn đăng ký và sử dụng dịch vụ của chúng tôi. Chúng tôi cũng có thể tự động thu thập thông tin về việc sử dụng và tương tác với ứng dụng của chúng tôi.
+2. Mục Đích Sử Dụng Thông Tin: Chúng tôi sử dụng thông tin cá nhân của bạn để cung cấp và cải thiện dịch vụ của chúng tôi. Thông tin cũng có thể được sử dụng để liên hệ với bạn về các cập nhật, thông báo quan trọng, và các thông tin khác liên quan đến dịch vụ của chúng tôi.
+3. Bảo Mật Thông Tin: Chúng tôi cam kết bảo vệ thông tin cá nhân của bạn. Chúng tôi sử dụng các biện pháp an ninh thích hợp để bảo vệ thông tin khỏi mất mát, lạm dụng hoặc truy cập trái phép.
+4. Chia Sẻ Thông Tin: Chúng tôi có thể chia sẻ thông tin cá nhân của bạn với các bên thứ ba đáng tin cậy nhằm cung cấp dịch vụ và cải thiện trải nghiệm của bạn. Tuy nhiên, chúng tôi cam kết không bán, trao đổi hoặc chia sẻ thông tin cá nhân của bạn với bất kỳ bên thứ ba nào mà không có sự đồng ý của bạn.
+5. Quyền Lựa Chọn: Bạn có quyền lựa chọn từ chối cung cấp thông tin cá nhân cho chúng tôi. Bạn cũng có thể yêu cầu chúng tôi loại bỏ thông tin cá nhân của bạn khỏi hệ thống của chúng tôi bất cứ lúc nào.
+6. Liên Hệ: Nếu bạn có bất kỳ câu hỏi hoặc thắc mắc nào liên quan đến chính sách bảo mật, vui lòng liên hệ với chúng tôi qua thông tin liên hệ được cung cấp trong ứng dụng.
+Trân trọng, Nhóm phát triển ứng dụng Đặt Vé Xem Phim.</string>
+    <string name="thong_tin3">Ứng dụng Đặt Vé Xem Phim là một dịch vụ trực tuyến cung cấp cho người dùng khả năng đặt vé xem phim từ các rạp chiếu phim phổ biến trên toàn quốc. Chúng tôi cung cấp một giao diện dễ sử dụng và tiện lợi để người dùng có thể tìm kiếm, chọn ghế và đặt vé một cách nhanh chóng và thuận tiện trên điện thoại di động của họ.
+    </string>
+</resources>

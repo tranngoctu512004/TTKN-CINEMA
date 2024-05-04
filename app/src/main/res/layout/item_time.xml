@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="100dp"
+    android:background="@color/white"
+    android:layout_height="50dp">
+    <TextView
+        android:background="@drawable/boderyce"
+        android:id="@+id/episode_text_view"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="14:00"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+</androidx.cardview.widget.CardView>

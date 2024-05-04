@@ -1,0 +1,49 @@
+<!-- res/layout/fragment_movie.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:padding="16dp">
+
+    <Button
+        android:id="@+id/time1Button"
+        android:background="@drawable/buttonlichphim"
+        app:backgroundTint="@null"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Time 1"
+        android:textColor="@color/black"
+        />
+
+    <Button
+        android:textColor="@color/black"
+        android:background="@drawable/buttonlichphim"
+        app:backgroundTint="@null"
+        android:layout_marginLeft="10sp"
+        android:id="@+id/time2Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Time 2"
+        android:visibility="gone" />
+    <Button
+        android:textColor="@color/black"
+        android:background="@drawable/buttonlichphim"
+        app:backgroundTint="@null"
+        android:id="@+id/time3Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Time 3"
+        android:visibility="gone" />
+    <Button
+        android:textColor="@color/black"
+        android:background="@drawable/buttonlichphim"
+        app:backgroundTint="@null"
+        android:id="@+id/time4Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Time 4"
+        android:visibility="gone" /><!-- Initially hide time2Button -->
+
+</LinearLayout>

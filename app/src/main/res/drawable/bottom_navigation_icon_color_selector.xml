@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Icon color when selected -->
+    <item android:color="@color/xanhblue" android:state_checked="true" />
+
+    <!-- Icon color when not selected -->
+    <item android:color="#FF6969" android:state_checked="false" />
+
+</selector>
